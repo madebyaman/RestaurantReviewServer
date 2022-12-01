@@ -160,3 +160,5 @@ app.post('/review', (req, res) => {
 app.listen(port, () =>
   console.log(`Restaurant app listening on port ${port}!`)
 );
+
+module.exports = app;
